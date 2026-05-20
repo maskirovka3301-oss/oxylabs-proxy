@@ -1,0 +1,14 @@
+{
+  "name": "pure-socks5-oxylabs-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Pure SOCKS5 proxy with Oxylabs backend - no external dependencies",
+  "main": "socks5-proxy.js",
+  "scripts": {
+    "start": "node socks5-proxy.js",
+    "dev": "node --watch socks5-proxy.js"
+  },
+  "keywords": ["socks5", "proxy", "oxylabs", "pure"],
+  "author": "",
+  "license": "MIT"
+}
