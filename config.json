@@ -1,0 +1,18 @@
+{
+    "oxylabs": {
+        "host": "pr.oxylabs.io",
+        "port": 7777,
+        "username": "customer-USERNAME",
+        "password": "PASSWORD",
+        "country": "US"
+    },
+    "local": {
+        "host": "127.0.0.1",
+        "port": 1080
+    },
+    "auth": {
+        "enabled": false,
+        "username": "localuser",
+        "password": "localpass"
+    }
+}
