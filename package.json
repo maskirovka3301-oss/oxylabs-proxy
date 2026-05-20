@@ -1,14 +1,15 @@
 {
-  "name": "pure-socks5-oxylabs-proxy",
-  "version": "1.0.0",
+  "name": "local-oxylabs-proxy",
+  "version": "2.0.0",
   "type": "module",
-  "description": "Pure SOCKS5 proxy with Oxylabs backend - no external dependencies",
+  "description": "Local proxy server forwarding to Oxylabs datacenter proxy",
   "main": "socks5-proxy.js",
   "scripts": {
-    "start": "node socks5-proxy.js",
-    "dev": "node --watch socks5-proxy.js"
+    "start:socks5": "node socks5-proxy.js",
+    "start:http": "node http-proxy.js",
+    "start": "node socks5-proxy.js"
   },
-  "keywords": ["socks5", "proxy", "oxylabs", "pure"],
+  "keywords": ["proxy", "socks5", "oxylabs", "http-proxy"],
   "author": "",
   "license": "MIT"
 }
